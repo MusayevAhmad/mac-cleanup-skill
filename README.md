@@ -23,23 +23,23 @@ Works with any AI agent environment supporting the [Agent Skills standard](https
 
 ## 📦 Installation
 
-### Option 1: Install with `skills` CLI
+### Option 1: Install with `npx skills` (Recommended)
 ```bash
-npx skills add <your-github-username>/mac-cleanup-skill
+npx skills add MusayevAhmad/mac-cleanup-skill
 ```
 
 ### Option 2: Clone directly into your Agent Skills directory
 ```bash
 # For Antigravity / universal agent setups:
-git clone https://github.com/<your-github-username>/mac-cleanup-skill.git ~/.agents/skills/mac-cleanup
+git clone https://github.com/MusayevAhmad/mac-cleanup-skill.git ~/.agents/skills/mac-cleanup
 
 # For Claude Code:
-git clone https://github.com/<your-github-username>/mac-cleanup-skill.git ~/.claude/skills/mac-cleanup
+git clone https://github.com/MusayevAhmad/mac-cleanup-skill.git ~/.claude/skills/mac-cleanup
 ```
 
 ### Option 3: Use Standalone (No Agent Needed)
 ```bash
-git clone https://github.com/<your-github-username>/mac-cleanup-skill.git
+git clone https://github.com/MusayevAhmad/mac-cleanup-skill.git
 cd mac-cleanup-skill
 
 # Preview what can be cleaned without deleting anything:
